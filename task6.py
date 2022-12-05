@@ -12,6 +12,6 @@ def int_func(word):
 print(int_func(input('Введите слово маленькими латинскими буквами:')))
 
 listed_text = []
-for i in input('Введите строку, слова в которой разделены пробелами:').split(' '):
+for i in input('Введите строку через пробел:').split(' '):
     listed_text.append(int_func(i))
 print(f'Строка получается такая: {" ".join(listed_text)}')
